@@ -12,14 +12,14 @@ export class StrictStan {
     const graphContainer = document.getElementById('graphContainer');
     if (graphContainer) {
       return graphContainer.clientHeight
-    } 
+    }
     return 0;
   }
 
   public getHeightSafelyTersely(): number {
     const graphContainer = document.getElementById('graphContainer');
-      return graphContainer?.clientHeight ?? 0;
-  } 
+    return graphContainer?.clientHeight ?? 0;
+  }
 
   public getGraphContainer(): HTMLElement | null {
     const graphContainer = document.getElementById('graphContainer');
