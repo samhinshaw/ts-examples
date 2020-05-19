@@ -1,0 +1,11 @@
+{
+  "name": "ts-example",
+  "version": "1.0.0",
+  "description": "toy examples!",
+  "main": "index.js",
+  "author": "Sam Hinshaw",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
+}
